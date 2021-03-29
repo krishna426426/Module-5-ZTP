@@ -1,4 +1,4 @@
-# Module 6: Zero Touch Provisioning (ZTP)
+# Module 5: Zero Touch Provisioning (ZTP)
 
 In this module, you will verify and confirm the prerequisites for ZTP, the Zero Touch Provisioning feature of IOS XE on the Catalyst 9300 switch. At the end of this module, you will issue the 'write erase' command, reload the switch, and watch as the ZTP process completes, and the switch is configured programmatically and automatically.
 
