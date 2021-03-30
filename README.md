@@ -96,7 +96,7 @@ auto@automation:~$ sudo /etc/init.d/isc-dhcp-server status
 
 
 
-If any changes are made to the configure file or if it is not running it can be restarted with the commands below:
+If it is not running or any changes made to the configure file it can be restarted with the commands below:
 
 ```
 auto@automation:~$ sudo /etc/init.d/isc-dhcp-server restart
@@ -130,6 +130,12 @@ Connect to the Serial Console of the C9300 using the **~/console-helper.sh** scr
 
 This process will take about 5 minutes to successfully complete. Once completed, ICMP pings from the device will begin responding.
 
+
+
+<img src="imgs/consolehelper.png" style="zoom:75%;" />
+
+
+
 ```
 C9300# wr
 C9300# wr erase
@@ -139,8 +145,6 @@ C9300# reload
 If prompted to save the configuration, enter no
 
 Press enter to confirm reloading
-
-<img src="imgs/consolehelper.png" style="zoom:75%;" />
 
 The device will reload and once IOS XE boots up, the ZTP process will start. The device will obtain the ztp.py configuration file from the Ubuntu server that it receives in the DHCP response.
 
