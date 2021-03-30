@@ -14,6 +14,8 @@ What is ZTP? When a device that supports Zero-Touch Provisioning boots up, and d
 auto@automation:~$ less /var/www/html/ztp-simple.py
 ```
 
+Exit out by pressing 'q'
+
 **Note** : The Python script with the POD environment may differ slightly
 
 ```
