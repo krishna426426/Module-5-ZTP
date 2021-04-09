@@ -126,7 +126,7 @@ auto@automation:~$ sudo /etc/init.d/nginx restart
 
 Connect to the Serial Console of the C9300 using the **~/console-helper.sh** script
 
- Once connected to the serial console the next step is to erase the configuration and reload the device
+ Once connected to the serial console (if username/password prompts enter **admin/Cisco123**) the next step is to erase the configuration and reload the device
 
 This process will take about 5 minutes to successfully complete. Once completed, ICMP pings from the device will begin responding.
 
